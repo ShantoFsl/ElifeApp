@@ -1,0 +1,110 @@
+body {
+	background-color: powderblue;
+	
+
+	}
+
+.content{
+	background-color:Tomato;
+	padding:10px;
+	width:200px;
+	height:600px;
+	
+}
+
+.content-wrapper {
+    background-color: #f4f6f9;
+	height: 100%;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -7.5px;
+    margin-left: -7.5px;
+}
+@media (min-width: 768px) {
+    body:not(.sidebar-mini-md):not(.sidebar-mini-xs):not(.layout-top-nav) .content-wrapper, body:not(.sidebar-mini-md):not(.sidebar-mini-xs):not(.layout-top-nav) .main-footer, body:not(.sidebar-mini-md):not(.sidebar-mini-xs):not(.layout-top-nav) .main-header {
+        transition: margin-left .3s ease-in-out;
+        margin-left: 250px;
+    }
+}
+
+.Dashboard01{
+	padding:50px;
+	margin-left:200px;
+	background-color:#04AA6D;
+	color:white;
+}
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  /*width: 100%;*/
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+.topbar{
+  background-color:DodgerBlue;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+  color: white;
+}
+
+.leftbar{
+	background-color:Tomato;
+	padding:10px;
+	width:200px;
+	height:600px;
+	
+}
+/* Style the header */
+
+header {
+  background-color: #666;
+  padding: 1px;
+  text-align: center;
+  font-size: 14px;
+  color: white;
+}
+
+section {
+  display: block;
+}
+
+
+nav{
+	background-color:navy-blue;
+	color:white;
+	margin-left:2px;
+	padding-left:20px;
+}
+
+
+.footer{
+   /*position: fixed;*/
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color:#00ff00;
+   color: white;
+   text-align: center;
+}
+
+
+@media screen and (max-width: 600) {
+  .content  {
+    width: 100%;
+  }
+}
