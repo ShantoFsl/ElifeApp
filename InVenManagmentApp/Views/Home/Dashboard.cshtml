@@ -1,0 +1,179 @@
+﻿@using InVenManagmentApp.Models;
+@{
+    ViewBag.Title = "Dashboard";
+    Layout = "~/Views/Shared/_LayoutDashboard.cshtml";
+}
+
+
+@{
+    List<MemberList> lstMemberList = new List<MemberList>();
+    if (ViewBag.MemberList != null)
+    {
+        lstMemberList = (List<MemberList>)ViewBag.MemberList;
+
+    }
+
+
+}
+
+@{
+    List<EquipmentList> lstEquipmentList = new List<EquipmentList>();
+    if (ViewBag.EquipmentList != null)
+    {
+        lstEquipmentList = (List<EquipmentList>)ViewBag.EquipmentList;
+
+    }
+
+
+}
+<style>
+    table {
+        width: 100%;
+    }
+
+        table tr:first-child {
+            background: #808080;
+            color: white;
+        }
+
+        table tr {
+            border: 1px solid #000000;
+        }
+</style>
+
+<div class="row">
+    <!-- Left col -->
+    <section class="col-lg-7 connectedSortable">
+        <!-- Custom tabs (Charts with tabs)-->
+        <div class="card">
+            <div class="card-header">
+                <h3 class="card-title">
+                    <i class="fas fa-chart-pie mr-1"></i>
+                    Member List
+                </h3>
+            </div><!-- /.card-header -->
+            <div class="card-body">
+                <table>
+                    <tr>
+                        <th>Name</th>
+                        <th>Designation</th>
+                        <th>Department</th>
+                        <th>Mobile</th>
+                        <th>Remarks</th>
+                    </tr>
+                    @{
+                        foreach (MemberList obj in lstMemberList)
+                        {
+                            <tr>
+                                <td>@obj.Name</td>
+                                <td>@obj.DesigNation</td>
+                                <td>@obj.Department</td>
+                                <td>@obj.Mobile</td>
+                                <td>@obj.Remarks</td>
+                            </tr>
+
+                        }
+
+                    }
+
+
+
+
+                </table>
+
+            </div><!-- /.card-body -->
+        </div>
+        <!-- /.card -->
+    </section>
+    <section class="col-lg-5 connectedSortable">
+        <!-- Custom tabs (Charts with tabs)-->
+        <div class="card">
+            <div class="card-header">
+                <h3 class="card-title">
+                    <i class="fas fa-chart-pie mr-1"></i>
+                    Equipment List
+                </h3>
+            </div><!-- /.card-header -->
+            <div class="card-body">
+                <table>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>NumberofEquipment</th>
+                    </tr>
+                    @{
+                        foreach (EquipmentList obj in lstEquipmentList)
+                        {
+                            <tr>
+                                <td>@obj.Id</td>
+                                <td>@obj.Name</td>
+                                <td>@obj.NumberofEquipment</td>
+                            </tr>
+
+                        }
+
+                    }
+
+
+
+
+                </table>
+
+            </div><!-- /.card-body -->
+        </div>
+        <!-- /.card -->
+    </section>
+
+</div>
+
+
+<div class="row">
+    <!-- Left col -->
+    <section class="col-lg-12 connectedSortable">
+        <!-- Custom tabs (Charts with tabs)-->
+        <div class="card">
+            <div class="card-header">
+                <h3 class="card-title">
+                    <i class="fas fa-chart-pie mr-1"></i>
+                    Equipment Assigned Member
+                </h3>
+            </div><!-- /.card-header -->
+            <div class="card-body">
+                <table>
+                    <tr>
+                        <th>Name</th>
+                        <th>Designation</th>
+                        <th>Department</th>
+                        <th>Mobile</th>
+                        <th>AssignedTo</th>
+                    </tr>
+                    @{
+                        foreach (MemberList obj in lstMemberList)
+                        {
+                            <tr>
+                                <td>@obj.Name</td>
+                                <td>@obj.DesigNation</td>
+                                <td>@obj.Department</td>
+                                <td>@obj.Mobile</td>
+                                <td>@obj.Assigned</td>
+                            </tr>
+
+                        }
+
+                    }
+
+
+
+
+                </table>
+
+            </div><!-- /.card-body -->
+        </div>
+        <!-- /.card -->
+    </section>
+</div>
+
+
+
+
+

@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Software Development MVC\\InVenManagmentApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0618ED59-1553-4524-914D-6C7ABFB2BA9E}|InVenManagmentApp.csproj|e:\\software development mvc\\invenmanagmentapp\\views\\shared\\_layoutdashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0618ED59-1553-4524-914D-6C7ABFB2BA9E}|InVenManagmentApp.csproj|solutionrelative:views\\shared\\_layoutdashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0618ED59-1553-4524-914D-6C7ABFB2BA9E}|InVenManagmentApp.csproj|e:\\software development mvc\\invenmanagmentapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0618ED59-1553-4524-914D-6C7ABFB2BA9E}|InVenManagmentApp.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0618ED59-1553-4524-914D-6C7ABFB2BA9E}|InVenManagmentApp.csproj|E:\\Software Development MVC\\InVenManagmentApp\\views\\home\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0618ED59-1553-4524-914D-6C7ABFB2BA9E}|InVenManagmentApp.csproj|solutionrelative:views\\home\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0618ED59-1553-4524-914D-6C7ABFB2BA9E}|InVenManagmentApp.csproj|E:\\Software Development MVC\\InVenManagmentApp\\models\\inventorymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0618ED59-1553-4524-914D-6C7ABFB2BA9E}|InVenManagmentApp.csproj|solutionrelative:models\\inventorymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0618ED59-1553-4524-914D-6C7ABFB2BA9E}|InVenManagmentApp.csproj|e:\\software development mvc\\invenmanagmentapp\\models\\memberlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0618ED59-1553-4524-914D-6C7ABFB2BA9E}|InVenManagmentApp.csproj|solutionrelative:models\\memberlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_LayoutDashboard.cshtml",
+              "DocumentMoniker": "E:\\Software Development MVC\\InVenManagmentApp\\Views\\Shared\\_LayoutDashboard.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_LayoutDashboard.cshtml",
+              "ToolTip": "E:\\Software Development MVC\\InVenManagmentApp\\Views\\Shared\\_LayoutDashboard.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_LayoutDashboard.cshtml",
+              "ViewState": "AQIAACABAAAAAAAAAAAAAC4BAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-29T04:42:19.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\Software Development MVC\\InVenManagmentApp\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "E:\\Software Development MVC\\InVenManagmentApp\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAArwBwAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T04:15:19.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MemberList.cs",
+              "DocumentMoniker": "E:\\Software Development MVC\\InVenManagmentApp\\Models\\MemberList.cs",
+              "RelativeDocumentMoniker": "Models\\MemberList.cs",
+              "ToolTip": "E:\\Software Development MVC\\InVenManagmentApp\\Models\\MemberList.cs",
+              "RelativeToolTip": "Models\\MemberList.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T11:50:32.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InventoryModel.cs",
+              "DocumentMoniker": "E:\\Software Development MVC\\InVenManagmentApp\\Models\\InventoryModel.cs",
+              "RelativeDocumentMoniker": "Models\\InventoryModel.cs",
+              "ToolTip": "E:\\Software Development MVC\\InVenManagmentApp\\Models\\InventoryModel.cs",
+              "RelativeToolTip": "Models\\InventoryModel.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T11:41:18.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "E:\\Software Development MVC\\InVenManagmentApp\\Views\\Home\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Dashboard.cshtml",
+              "ToolTip": "E:\\Software Development MVC\\InVenManagmentApp\\Views\\Home\\Dashboard.cshtml",
+              "RelativeToolTip": "Views\\Home\\Dashboard.cshtml",
+              "ViewState": "AQIAAIoAAAAAAAAAAAAAAJkAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-28T11:40:35.314Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
